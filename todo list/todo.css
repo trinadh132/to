@@ -1,0 +1,108 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css');
+.background
+{
+    background-color:mediumslateblue;
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchtask{
+    background-color:white;
+    width: 350px;
+    height: 70px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 1200px;
+}
+.searchtask input{
+    width: 275px;
+    height: 35px;
+    box-shadow:inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 3px;
+    
+}
+.searchtask button{
+    border-radius: 100%;
+    border-width: 1px;
+    width: 27px;
+    height: 27px;
+    background-color: white;
+}
+.task{
+    background-color: white;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 1200px ;
+    max-height: fit-content;
+}
+.task input[type='text']{
+    width: 225px;
+    height: 23px;
+}
+.task input[type='submit']{
+    background-color: lawngreen;
+    height: 27px;
+    margin: 5px;
+    border-radius: 3px;
+}
+.pending{
+    background-color: white;
+    margin: 15px;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+}
+.pending div{
+    margin-top: 6%;
+}
+.pending button{
+    width: 75px;
+    background-color: royalblue;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: inset;
+    margin-left: 10px;
+}
+.atask{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.atask li{
+    background-color: lightgrey;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 45px;
+}
+.atask span{
+    padding: 10px;
+    width:230px
+}
+.atask i.delete{
+    color: white;
+    background-color: red;
+    height: 100%;
+    cursor: pointer;
+    padding: 10px;
+}
+.hide{
+    display: none !important;
+}

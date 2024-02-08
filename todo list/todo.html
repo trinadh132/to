@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body class="background">
+         <div class="heading">
+            <h1>To Do List</h1>
+            <h3>Manage And Search Your Pending Task in CheckList</h3>
+         </div>
+         <section class="form">
+            <form class="searchtask">
+                <p><input type="text" name="task" placeholder="search task" autocomplete="off">
+                <button type="button" onclick="listclear()">x</button></p>
+                </form>
+            <div  class="task">
+                <ul class="atask">
+                    <li class="delete"><span>trinadh</span><i class="bi bi-trash delete"></i></li>
+                    <li class="delete"><span>dawn</span><i class="bi bi-trash delete"></i></li>
+                    <li class="delete"><span>water</span><i class="bi bi-trash delete"></i></li>
+                </ul>
+                <form class="mar">
+                    <p><input type="text" name='task' placeholder="add task" autocomplete="off">
+                    <input type="submit" value="Add" ></p>
+                </form>
+            </div>
+             <div class="pending">
+                <div><span class="tex">You have 3 pending tasks</span> <button type="submit" onclick="empty()">Clear all </button>
+                </div></div>
+         </section>
+         <script src="todo.js"></script>
+    </body>
+</html>
